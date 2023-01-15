@@ -12,7 +12,7 @@
 	<artifactId>gitactions</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gitactions</name>
-	<description>Demo project for Spring Boot vs github actionc</description>
+	<description>Demo project for Spring Boot vs github actioncs</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<docker.user/>
@@ -23,7 +23,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
